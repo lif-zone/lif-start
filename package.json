@@ -1,0 +1,20 @@
+{
+  "name": "lif-start",
+  "version": "2026.9.25",
+  "description": "Start Lif",
+  "author": {
+    "name": "Jungo Publishing Labs"
+  },
+  "license": "JPL DNA JEM",
+  "type": "module",
+  "lif": {
+    "webapp": "./main.jsx"
+  },
+  "files": [
+    "main.jsx",
+    "style.css"
+  ],
+  "scripts": {
+    "serve": "npx lif-kernel serve.js -p 1809"
+  }
+}

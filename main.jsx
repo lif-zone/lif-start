@@ -13,6 +13,8 @@ function lif_url(site){
 const App = ()=>{
   let entries = Object.entries(sites);
   return (
+    <div className="container">
+    <img className="lif-logo" src="/.lif/npm/lif-kernel/lif.svg?raw=1" />
     <div className="grid">
       {entries.map(([key, site])=>
         <a key={key} className="card" onClick={()=>{
@@ -24,6 +26,7 @@ const App = ()=>{
           <span className="card-title">{site.title}</span>
         </a>
       )}
+    </div>
     </div>
   );
 };

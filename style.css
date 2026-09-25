@@ -5,13 +5,21 @@
 }
 
 body {
-  background: url('/.lif/git/github.com/lif-zone/lif-os/public/Users/Public/Pictures/wallpaper_hola.jpg?raw=1') center/cover no-repeat;
+  /* background: url('/.lif/git/github.com/lif-zone/lif-os/public/Users/Public/Pictures/wallpaper_hola.jpg?raw=1') center/cover no-repeat; */
   color: #fff;
   font-family: Inter, -apple-system, sans-serif;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.lif-logo {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  height: 40px;
+  width: auto;
 }
 
 .grid {
@@ -56,8 +64,9 @@ body {
 }
 
 .card-title {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   line-height: 1.3;
   word-break: break-word;
+  color: #555;
 }

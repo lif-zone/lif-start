@@ -5,7 +5,7 @@ import {sites} from './sites.js';
 
 function lif_url(site){
   let m = site.match(/^(.*)\.lif$/);
-  let domain = lif_domain_parse(''+location);
+  let domain = lif_domain_parse(location.hostname);
   return location.protocol+'//'+m[1]+domain.root+location.port;
 }
 

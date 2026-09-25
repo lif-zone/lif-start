@@ -14,7 +14,7 @@ export const sites = {
     title: 'OS Desktop',
     icon: '',
     url: 'os.lif',
-  }
+  },
   basic: {
     title: 'Basic LIF+React example',
     icon: '',

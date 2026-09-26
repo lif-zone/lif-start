@@ -18,6 +18,9 @@ body {
   position: absolute;
   top: 16px;
   left: 16px;
+}
+
+.lif-logo img {
   height: 40px;
   width: auto;
 }

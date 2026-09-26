@@ -7,7 +7,9 @@ const App = ()=>{
   let entries = Object.entries(sites);
   return (
     <div className="container">
-    <img className="lif-logo" src="/.lif/npm/lif-kernel/lif.svg?raw=1" />
+    <a className="lif-logo" href="https://github.com/lif-zone/lif-coin">
+      <img src="/.lif/npm/lif-kernel/lif.svg?raw=1" />
+    </a>
     <a className="github-link" href="https://github.com/lif-zone/lif-start">
       <img src="/.lif/git/github.com/primer/octicons/icons/mark-github-24.svg?raw=1" />
     </a>

@@ -22,7 +22,8 @@ export const sites = {
   },
   basic: {
     title: 'React Example',
-    icon: '/.lif/git/github.com/glincker/thesvg/public/icons/react/default.svg?raw=1',
+    //icon: '/.lif/git/github.com/glincker/thesvg/public/icons/react/default.svg?raw=1',
+    icon: './reactjs.png',
     url: 'https://lif-basic.lif',
   },
 };

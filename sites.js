@@ -9,7 +9,7 @@ export const sites = {
   mining: {
     title: 'Miner',
     icon: './miner.png',
-    url: 'https://wallet.lif/mine',
+    url: 'https://wallet.lif/?mine=1',
     git: 'https://github.com/lif-zone/lif-wallet',
   },
   explorer: {

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {lif_domain_parse, lif_url_tr} from 'lif-kernel/util';
+import {lif_domain_parse, lif_url_tr, html_elm_frag_append,
+} from 'lif-kernel/util';
 import {sites} from './sites.js';
 
 const App = ()=>{
@@ -30,11 +31,11 @@ const App = ()=>{
 };
 
 function main(){
-  // add stylesheet
-  let link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.href = import.meta.resolve('./style.css');
-  document.head.appendChild(link);
+  // viewport for mobile
+  html_elm_frag_append(document.head, `
+    <meta name=viewport content='width=device-width, initial-scale=1' />
+    <link rel=stylesheet href="${import.meta.resolve('./style.css')}" />
+  `);
   // start app
   let _root = document.body.appendChild(document.createElement('div'));
   let root = ReactDOM.createRoot(_root);

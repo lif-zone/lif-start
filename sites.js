@@ -2,22 +2,22 @@
 export const sites = {
   wallet: {
     title: 'Wallet',
-    icon: '',
+    icon: './wallet.png',
     url: 'https://wallet.lif',
   },
   mining: {
     title: 'Miner',
-    icon: '/.lif/git/github.com/microsoft/fluentui-emoji/assets/Pick/3D/pick_3d.png?raw=1',
+    icon: './miner.png',
     url: 'https://wallet.lif/mine',
   },
   explorer: {
     title: 'Blockchain Explorer',
-    icon: '',
+    icon: './explorer.png',
     url: 'https://explorer.lif',
   },
   os: {
     title: 'OS Desktop',
-    icon: '',
+    icon: './os.png',
     url: 'https://os.lif',
   },
   basic: {

@@ -8,7 +8,10 @@
   "license": "JPL DNA JEM",
   "type": "module",
   "lif": {
-    "webapp": "./main.jsx"
+    "webapp": "./main.jsx",
+    "web_exports": {
+      "./*.png": "./*.png"
+    }
   },
   "files": [
     "main.jsx",

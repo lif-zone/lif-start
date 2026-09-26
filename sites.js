@@ -1,24 +1,29 @@
 // the lifnet reserved hardcoded hosts: /etc/hosts
 export const sites = {
   wallet: {
-    title: 'LIF Wallet and Miner',
+    title: 'Wallet',
     icon: '',
-    url: 'wallet.lif',
+    url: 'https://wallet.lif',
+  },
+  mining: {
+    title: 'Miner',
+    icon: '/.lif/git/github.com/microsoft/fluentui-emoji/assets/Pick/3D/pick_3d.png?raw=1',
+    url: 'https://wallet.lif/mine',
   },
   explorer: {
-    title: 'LIF Blockchain Explorer',
+    title: 'Blockchain Explorer',
     icon: '',
-    url: 'explorer.lif',
+    url: 'https://explorer.lif',
   },
   os: {
     title: 'OS Desktop',
     icon: '',
-    url: 'os.lif',
+    url: 'https://os.lif',
   },
   basic: {
-    title: 'Basic LIF+React example',
-    icon: '',
-    url: 'lif-basic.lif',
+    title: 'React Example',
+    icon: '/.lif/git/github.com/glincker/thesvg/public/icons/react/default.svg?raw=1',
+    url: 'https://lif-basic.lif',
   },
 };
 

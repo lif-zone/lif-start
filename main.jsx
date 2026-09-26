@@ -8,6 +8,9 @@ const App = ()=>{
   return (
     <div className="container">
     <img className="lif-logo" src="/.lif/npm/lif-kernel/lif.svg?raw=1" />
+    <a className="github-link" href="https://github.com/lif-zone/lif-start">
+      <img src="/.lif/git/github.com/primer/octicons/icons/mark-github-24.svg?raw=1" />
+    </a>
     <div className="grid">
       {entries.map(([key, site])=>
         <a key={key} className="card" onClick={()=>{

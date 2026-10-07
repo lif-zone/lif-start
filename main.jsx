@@ -9,10 +9,10 @@ const App = ()=>{
   return (
     <div className="container">
     <a className="lif-logo" href="https://github.com/lif-zone/lif-coin">
-      <img src="/.lif/npm/lif-kernel/lif.svg?raw=1" />
+      <img src="/.lif/npm/lif-kernel/lif.svg" />
     </a>
     <a className="github-link" href="https://github.com/lif-zone/lif-start">
-      <img src="/.lif/git/github.com/primer/octicons/icons/mark-github-24.svg?raw=1" />
+      <img src="/.lif/git/github.com/primer/octicons/icons/mark-github-24.svg" />
     </a>
     <div className="grid">
       {entries.map(([key, site])=>

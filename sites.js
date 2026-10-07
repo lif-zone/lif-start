@@ -8,6 +8,7 @@ export const sites = {
   },
   mining: {
     title: 'Miner',
+    //icon: '/.lif/git/github.com/microsoft/fluentui-emoji/assets/Pick/3D/pick_3d.png',
     icon: './miner.png',
     url: 'https://wallet.lif/?mine=1',
     git: 'https://github.com/lif-zone/lif-wallet',

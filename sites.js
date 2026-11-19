@@ -34,8 +34,8 @@ export const sites = {
   },
   fullnode_btc: {
     title: 'Bitcoin Fullnode',
-    //icon: '/.lif/git/github.com/lif-zone/lif-coin/browser/lif_node.png',
-    icon: './lif_node.png',
+    //icon: '/.lif/git/github.com/lif-zone/BlueWallet/ios/Stickers/Stickers.xcassets/Sticker Pack.stickerpack/Bitcoin.sticker/bitcoin-logo-png-transparent.png',
+    icon: './btc_node.png',
     url: 'https://fullnode.lif/btc',
     git: 'https://github.com/lif-zone/lif-coin',
   },

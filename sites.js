@@ -6,6 +6,12 @@ export const sites = {
     url: 'https://wallet.lif',
     git: 'https://github.com/lif-zone/lif-wallet',
   },
+  bluewallet: {
+    title: 'BlueWallet',
+    icon: '/.lif/git/github.com/lif-zone/BlueWallet/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png',
+    url: 'https://bluewallet.lif',
+    git: 'https://github.com/lif-zone/BlueWallet',
+  },
   mining: {
     title: 'Miner',
     //icon: '/.lif/git/github.com/microsoft/fluentui-emoji/assets/Pick/3D/pick_3d.png',
@@ -18,6 +24,12 @@ export const sites = {
     icon: './explorer.png',
     url: 'https://explorer.lif',
     git: 'https://github.com/lif-zone/lif-explorer',
+  },
+  fullnode: {
+    title: 'Full Node',
+    icon: './fullnode.png',
+    url: 'https://fullnode.lif',
+    git: 'https://github.com/lif-zone/lif-coin',
   },
   os: {
     title: 'OS Desktop',

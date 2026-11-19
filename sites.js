@@ -13,7 +13,7 @@ export const sites = {
     git: 'https://github.com/lif-zone/BlueWallet',
   },
   mining: {
-    title: 'Miner',
+    title: 'Lifcoin Miner',
     //icon: '/.lif/git/github.com/microsoft/fluentui-emoji/assets/Pick/3D/pick_3d.png',
     icon: './miner.png',
     url: 'https://wallet.lif/?mine=1',
@@ -26,10 +26,17 @@ export const sites = {
     git: 'https://github.com/lif-zone/lif-explorer',
   },
   fullnode: {
-    title: 'Full Node',
+    title: 'Lifcoin Fullnode',
     //icon: '/.lif/git/github.com/lif-zone/lif-coin/browser/lif_node.png',
     icon: './lif_node.png',
-    url: 'https://fullnode.lif',
+    url: 'https://fullnode.lif/lif',
+    git: 'https://github.com/lif-zone/lif-coin',
+  },
+  fullnode_btc: {
+    title: 'Bitcoin Fullnode',
+    //icon: '/.lif/git/github.com/lif-zone/lif-coin/browser/lif_node.png',
+    icon: './lif_node.png',
+    url: 'https://fullnode.lif/btc',
     git: 'https://github.com/lif-zone/lif-coin',
   },
   os: {

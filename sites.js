@@ -27,7 +27,8 @@ export const sites = {
   },
   fullnode: {
     title: 'Full Node',
-    icon: './fullnode.png',
+    //icon: '/.lif/git/github.com/lif-zone/lif-coin/browser/lif_node.png',
+    icon: './lif_node.png',
     url: 'https://fullnode.lif',
     git: 'https://github.com/lif-zone/lif-coin',
   },
